@@ -1,0 +1,8 @@
+[package]
+name = "mint"
+version = "0.1.0"
+authors = ["softprops <d.tangren@gmail.com>"]
+description = "a make file linter"
+
+[dependencies]
+regex = "0.1"
