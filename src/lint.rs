@@ -17,7 +17,7 @@ impl HasTarget {
 
 impl Lint for HasTarget {
     fn name(&self) -> String {
-        "HasTarget".to_owned()
+        "has target".to_owned()
     }
 
     fn apply(&self, makefile: &Makefile) -> Option<String> {
